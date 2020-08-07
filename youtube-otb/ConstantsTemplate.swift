@@ -1,4 +1,14 @@
 //
+//  ConstantsTemplate.swift
+//  youtube-otb
+//
+//  Created by Mark D on 8/7/20.
+//  Copyright © 2020 MAD Endeavors. All rights reserved.
+//
+
+import Foundation
+
+//
 //  Constants.swift
 //  youtube-otb
 //
@@ -6,9 +16,7 @@
 //  Copyright © 2020 MAD Endeavors. All rights reserved.
 //
 
-import Foundation
-// Not loading
-
+/*
 struct Constants {
     
     static var API_KEY = "AIzaSyBQQso1N9THB9D4kFRTsqo80LXKUiwrYcE"
@@ -17,3 +25,4 @@ struct Constants {
     
     
 }
+*/
