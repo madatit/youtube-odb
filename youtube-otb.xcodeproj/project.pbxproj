@@ -13,6 +13,9 @@
 		7D18170E24DC26A40001DEAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D18170C24DC26A40001DEAE /* Main.storyboard */; };
 		7D18171024DC26A60001DEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D18170F24DC26A60001DEAE /* Assets.xcassets */; };
 		7D18171324DC26A60001DEAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D18171124DC26A60001DEAE /* LaunchScreen.storyboard */; };
+		7D18171B24DC604F0001DEAE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18171A24DC604F0001DEAE /* Constants.swift */; };
+		7D18171D24DC682D0001DEAE /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18171C24DC682D0001DEAE /* Video.swift */; };
+		7D18171F24DC76D40001DEAE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18171E24DC76D40001DEAE /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7D18170F24DC26A60001DEAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D18171224DC26A60001DEAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D18171424DC26A60001DEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D18171A24DC604F0001DEAE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7D18171C24DC682D0001DEAE /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		7D18171E24DC76D40001DEAE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				7D18170F24DC26A60001DEAE /* Assets.xcassets */,
 				7D18171124DC26A60001DEAE /* LaunchScreen.storyboard */,
 				7D18171424DC26A60001DEAE /* Info.plist */,
+				7D18171A24DC604F0001DEAE /* Constants.swift */,
+				7D18171C24DC682D0001DEAE /* Video.swift */,
+				7D18171E24DC76D40001DEAE /* Model.swift */,
 			);
 			path = "youtube-otb";
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				7D18170B24DC26A40001DEAE /* ViewController.swift in Sources */,
 				7D18170724DC26A40001DEAE /* AppDelegate.swift in Sources */,
 				7D18170924DC26A40001DEAE /* SceneDelegate.swift in Sources */,
+				7D18171F24DC76D40001DEAE /* Model.swift in Sources */,
+				7D18171B24DC604F0001DEAE /* Constants.swift in Sources */,
+				7D18171D24DC682D0001DEAE /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
