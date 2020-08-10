@@ -20,6 +20,8 @@
 		7D18172524DDB2AD0001DEAE /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18172424DDB2AD0001DEAE /* ConstantsTemplate.swift */; };
 		7D18172724DDE28D0001DEAE /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18172624DDE28D0001DEAE /* VideoTableViewCell.swift */; };
 		7D18172D24E16A0E0001DEAE /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18172C24E16A0E0001DEAE /* CacheManager.swift */; };
+		7D18172F24E170EC0001DEAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18172E24E170EC0001DEAE /* DetailViewController.swift */; };
+		7D18173224E17D7C0001DEAE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D18173124E17D7C0001DEAE /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		7D18172424DDB2AD0001DEAE /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		7D18172624DDE28D0001DEAE /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		7D18172C24E16A0E0001DEAE /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		7D18172E24E170EC0001DEAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7D18173124E17D7C0001DEAE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D18173224E17D7C0001DEAE /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,7 @@
 			children = (
 				7D18170524DC26A40001DEAE /* youtube-otb */,
 				7D18170424DC26A40001DEAE /* Products */,
+				7D18173024E17D7C0001DEAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				7D18170A24DC26A40001DEAE /* ViewController.swift */,
+				7D18172E24E170EC0001DEAE /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -118,6 +125,14 @@
 				7D18172C24E16A0E0001DEAE /* CacheManager.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7D18173024E17D7C0001DEAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D18173124E17D7C0001DEAE /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D18172F24E170EC0001DEAE /* DetailViewController.swift in Sources */,
 				7D18170B24DC26A40001DEAE /* ViewController.swift in Sources */,
 				7D18170724DC26A40001DEAE /* AppDelegate.swift in Sources */,
 				7D18170924DC26A40001DEAE /* SceneDelegate.swift in Sources */,
