@@ -48,6 +48,15 @@ class VideoTableViewCell: UITableViewCell {
         guard self.video!.thumbnail != "" else {
             return
         }
+        
+        // check cache before downloading data
+        if let cacheData = CacheManager.getVideoCache(self.video!.thumbnail) {
+            // Set the thumbnail imageview
+            self.thumbnailImageView.image = UIImage(data: cacheData)
+            return
+            
+        }
+        
         let url = URL(string: self.video!.thumbnail)
         
         // Get the shared url session
@@ -57,6 +66,9 @@ class VideoTableViewCell: UITableViewCell {
         let dataTask = session.dataTask(with: url!) { (data, response, error) in
             
             if error == nil && data != nil {
+            
+                // Save the data in cache
+                CacheManager.setVideoCache(url!.absoluteString, data)
                 
                 // Check that download url matches
                 if url?.absoluteString != self.video?.thumbnail {

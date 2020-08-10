@@ -19,6 +19,7 @@
 		7D18172124DD871D0001DEAE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18172024DD871D0001DEAE /* Response.swift */; };
 		7D18172524DDB2AD0001DEAE /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18172424DDB2AD0001DEAE /* ConstantsTemplate.swift */; };
 		7D18172724DDE28D0001DEAE /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18172624DDE28D0001DEAE /* VideoTableViewCell.swift */; };
+		7D18172D24E16A0E0001DEAE /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18172C24E16A0E0001DEAE /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		7D18172024DD871D0001DEAE /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		7D18172424DDB2AD0001DEAE /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		7D18172624DDE28D0001DEAE /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		7D18172C24E16A0E0001DEAE /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				7D18171A24DC604F0001DEAE /* Constants.swift */,
 				7D18172424DDB2AD0001DEAE /* ConstantsTemplate.swift */,
+				7D18172C24E16A0E0001DEAE /* CacheManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				7D18172524DDB2AD0001DEAE /* ConstantsTemplate.swift in Sources */,
 				7D18171F24DC76D40001DEAE /* Model.swift in Sources */,
 				7D18171B24DC604F0001DEAE /* Constants.swift in Sources */,
+				7D18172D24E16A0E0001DEAE /* CacheManager.swift in Sources */,
 				7D18171D24DC682D0001DEAE /* Video.swift in Sources */,
 				7D18172124DD871D0001DEAE /* Response.swift in Sources */,
 				7D18172724DDE28D0001DEAE /* VideoTableViewCell.swift in Sources */,
